@@ -1,0 +1,37 @@
+/*------------------------------------------------------------------
+    [The "base.scss" contains basic default element styles
+      (colors, typography, margins & padding).]
+------------------------------------------------------------------*/
+html {
+  height: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  color: transparent;
+  background: transparent;
+  text-shadow: none;
+}
+
+::-webkit-selection {
+  color: transparent;
+  background: transparent;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  color: transparent;
+  background: transparent;
+  text-shadow: none;
+}
+
+:active,
+:focus {
+  outline: none;
+}
